@@ -5,6 +5,12 @@ Each users are stored in a data base with the help of "MongoDB" providing a user
 The architecture of the web application is based on MERN stack, using "Express.js" framework to handle the widgets API's requests and front end views, "MongoDB" to store + manage users, "React" framework for the user client interface and "node.js" for the back end that process client datas and launches client browser.
 The web application is deployed with help of "Docker Compose", docker_compose.yml uses the docker service server to launch the application on port 8080 thus answering the call http://localhost:8080/about.json.
 
+PREREQUISITE :
+
+    - Javascript + node.js + Docker must be installed.
+    
+    npm install ; cd weather-app ; npm install.
+
 USAGE :
 
     1) docker-compose up --build or 1) node login/app.js
