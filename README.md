@@ -9,7 +9,7 @@ PREREQUISITE :
 
     - Javascript + node.js + Docker must be installed.
     
-    - npm install ; cd weather-app ; npm install.
+    - cd login && npm install ; .. && cd weather-app && npm install.
 
 USAGE :
 
