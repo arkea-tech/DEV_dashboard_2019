@@ -1,0 +1,22 @@
+extends layout
+block content
+  h1 Subscriptions
+  p Please, select your subscriptions.
+  form(method='POST', action='/users/subscriptions')
+    #form-group
+      label Cinema:
+      select(name='cinema')
+        option(value='true') Yes
+        option(value='false') No
+    #form-group
+      label Pokemon:
+      select(name='pokemon')
+        option(value='true') Yes
+        option(value='false') No
+    #form-group
+      label Google Services:
+      select(name='google')
+        option(value='true') Yes
+        option(value='false') No
+    br
+    input.btn.btn-primary(type='submit', value='Submit')
