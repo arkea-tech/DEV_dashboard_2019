@@ -20,3 +20,14 @@ USAGE :
 To test independently the widget : 
 
     1) cd weather-app && npm start
+    
+    
+![Image description](pic/register.png)
+
+![Image description](pic/login.png)
+
+![Image description](pic/home.png)
+
+![Image description](pic/subscriptions.png)
+
+![Image description](pic/widget.png)
