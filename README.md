@@ -9,14 +9,14 @@ PREREQUISITE :
 
     - Javascript + node.js + Docker must be installed.
     
-    > npm install ; cd weather-app ; npm install.
+    - npm install ; cd weather-app ; npm install.
 
 USAGE :
 
-    1) > docker-compose up --build or 1) > node login/app.js
+    1) docker-compose up --build or 1) node login/app.js
     
-    2) enter http://localhost:8080/ on any browser
+    2) copy and paste http://localhost:8080/ on any browser
     
 To test independently the widget : 
 
-    1) > cd weather-app && npm start
+    1) cd weather-app && npm start
